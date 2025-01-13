@@ -1,0 +1,84 @@
+.gamebody {
+    text-align: center;
+
+}
+
+.button {
+    height: 200px;
+    width: 200px;
+    border-radius: 20%;
+    border: solid black 10px;
+    margin: 18px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn1 {
+    background-color: pink;
+}
+
+.btn2 {
+    background-color: blue;
+}
+
+.btn3 {
+    background-color: yellow;
+}
+
+.btn4 {
+    background-color: teal;
+}
+
+.Gameflash {
+    background-color: white;
+}
+
+.Userflash {
+    background-color: green;
+}
+
+.main-button {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+            rgba(0, 0, 0, 0.2),
+            rgba(0, 0, 0, 0.2) 30%,
+            rgba(0, 0, 0, 0));
+    box-shadow:
+        inset 2px 2px 3px rgba(255, 255, 255, 0.6),
+        inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.main-button:hover {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.main-button:active {
+    box-shadow:
+        inset -2px -2px 3px rgba(255, 255, 255, 0.6),
+        inset 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+h1 {
+    margin-bottom: 0px;
+}
+
+.level {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.Highscore {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
